@@ -263,6 +263,11 @@ html, body {
     display: flex;
 }
 
+#home-v2 .about .contact-info ul {
+    margin-bottom: 0;
+    padding: 0;
+}
+
 #home-v2 .about .contact-info ul li {
     display: block;
     padding: 3px 0 3px 0;
@@ -271,10 +276,6 @@ html, body {
 #home-v2 .about .more-contact-info {
     text-align: end;
     margin: 20px 0;
-}
-
-#home-v2 .about .contact-info ul {
-    margin-bottom: 0;
 }
 
 #home-v2 .about .more-contact-info a {
@@ -341,9 +342,13 @@ html, body {
     padding-bottom: 10px;
 }
 
+#home-v2 .experience .start-date {
+    left: 0;
+}
+
 #home-v2 .experience .end-date {
     top: 0;
-    right: 15px;
+    right: 0;
 }
 
 #home-v2 .experience .exp-item-right {
@@ -476,6 +481,7 @@ html, body {
     background: #943d2b;
     border-bottom-left-radius: 28px;
     padding: 0 25px;
+    margin-right: 9px;
     height: 50px;
     font-size: 20px;
     color: black;
