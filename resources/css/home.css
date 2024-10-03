@@ -112,36 +112,37 @@ html, body {
     display: none;
 }
 
-#home-v2.home {
+#home.home {
     background: url("../image/upgrade/home-background.png") no-repeat fixed;
+    background-size: cover;
 }
 
 /* ==============================INTRODUCE============================== */
 
-#home-v2 .introduce .img-section {
+#home .introduce .img-section {
     width: 300px;
     height: 300px;
     overflow: hidden;
 }
 
-#home-v2 .introduce .img-section img {
+#home .introduce .img-section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
-#home-v2 .introduce .display-1 {
+#home .introduce .display-1 {
     width: fit-content;
     padding-top: 555px;
 }
 
-#home-v2 .introduce .display-1:after {
+#home .introduce .display-1:after {
     display: none;
 }
 
-#home-v2 .introduce .display-1 .img-section,
-#home-v2 .introduce .display-1 p {
+#home .introduce .display-1 .img-section,
+#home .introduce .display-1 p {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -150,7 +151,7 @@ html, body {
     transform-origin: 50%;
 }
 
-#home-v2 .introduce .display-1 div::before {
+#home .introduce .display-1 div::before {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -164,131 +165,131 @@ html, body {
     transform-origin: 50%;
 }
 
-#home-v2 .introduce .display-1 p {
+#home .introduce .display-1 p {
     width: 100px;
     text-transform: none;
     font-size: 30%;
     line-height: 2;
 }
 
-#home-v2 .introduce .display-1 p i {
+#home .introduce .display-1 p i {
     padding: 3px;
     margin: 2px 4px;
 }
 
-#home-v2 .introduce .display-1 i.fa-facebook {
+#home .introduce .display-1 i.fa-facebook {
     border-radius: 29px;
     border: 2px solid blue;
     color: blue;
 }
 
-#home-v2 .introduce i.fa-stack-overflow {
+#home .introduce i.fa-stack-overflow {
     border-radius: 15px;
     border: 2px solid #ec7c23;
     color: #ec7c23;
 }
 
-#home-v2 .introduce i.fa-github {
+#home .introduce i.fa-github {
     border-radius: 29px;
     border: 2px solid black;
     color: black;
 }
 
-#home-v2 .introduce i.fa-linkedin {
+#home .introduce i.fa-linkedin {
     border-radius: 9px;
     border: 2px solid white;
     color: white;
 }
 
-#home-v2 .introduce .display-1 p a:hover,
-#home-v2 .introduce .display-1 p a:focus {
+#home .introduce .display-1 p a:hover,
+#home .introduce .display-1 p a:focus {
     opacity: 0.6;
 }
 
-#home-v2 .introduce .display-1 p a i {
+#home .introduce .display-1 p a i {
     opacity: 0;
     transition: opacity 0.35s, transform 0.35s;
 }
 
-#home-v2 .introduce .display-1 p a:first-child i {
+#home .introduce .display-1 p a:first-child i {
     transform: translate3d(-60px, -60px, 0);
 }
 
-#home-v2 .introduce .display-1 p a:nth-child(2) i {
+#home .introduce .display-1 p a:nth-child(2) i {
     transform: translate3d(60px, -60px, 0);
 }
 
-#home-v2 .introduce .display-1 p a:nth-child(3) i {
+#home .introduce .display-1 p a:nth-child(3) i {
     transform: translate3d(-60px, 60px, 0);
 }
 
-#home-v2 .introduce .display-1 p a:nth-child(4) i {
+#home .introduce .display-1 p a:nth-child(4) i {
     transform: translate3d(60px, 60px, 0);
 }
 
-#home-v2 .introduce .display-1:hover div::before {
+#home .introduce .display-1:hover div::before {
     opacity: 1;
     transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1);
 }
 
-#home-v2 .introduce .display-1:hover .img-section {
+#home .introduce .display-1:hover .img-section {
     opacity: 0;
     transform: translate3d(-50%, -50%, 0) scale3d(0.8, 0.8, 1);
 }
 
-#home-v2 .introduce .display-1:hover p i:empty {
+#home .introduce .display-1:hover p i:empty {
     transform: translate3d(0, 0, 0);
     opacity: 1;
 }
 
 /* ==============================ABOUT============================== */
 
-#home-v2 .about {
+#home .about {
     background-color: #141414;
     padding: 100px 0;
 }
 
-#home-v2 .about .about-content {
+#home .about .about-content {
     display: flex;
     color: white;
 }
 
-#home-v2 .about .about-item {
+#home .about .about-item {
     background-color: #222222;
     padding: 30px 30px 15px 30px;
     margin: 29px 0;
 }
 
-#home-v2 .about .contact-info {
+#home .about .contact-info {
     display: flex;
 }
 
-#home-v2 .about .contact-info ul {
+#home .about .contact-info ul {
     margin-bottom: 0;
     padding: 0;
 }
 
-#home-v2 .about .contact-info ul li {
+#home .about .contact-info ul li {
     display: block;
     padding: 3px 0 3px 0;
 }
 
-#home-v2 .about .more-contact-info {
+#home .about .more-contact-info {
     text-align: end;
     margin: 20px 0;
 }
 
-#home-v2 .about .more-contact-info a {
+#home .about .more-contact-info a {
     color: white;
     background-color: #943d2b;
     padding: 4px 7px 7px 7px;
 }
 
-#home-v2 .about .more-contact-info i {
+#home .about .more-contact-info i {
     margin: 3px;
 }
 
-#home-v2 .about .about-title {
+#home .about .about-title {
     position: absolute;
     background-color: #943d2b;
     right: 40px;
@@ -297,79 +298,79 @@ html, body {
     transform: skew(334deg);
 }
 
-#home-v2 .about .about-title h5 {
+#home .about .about-title h5 {
     transform: skew(27deg, 0deg);
 }
 
-#home-v2 .about .about-item p {
+#home .about .about-item p {
     margin-bottom: 0;
 }
 
-/* ==============================EXPERIENCE============================== */
+/* ==============================project============================== */
 
-#home-v2 .experience {
+#home .project {
     padding: 100px 0;
 }
 
-#home-v2 .experience .exp-content {
+#home .project .exp-content {
     color: white;
 }
 
-#home-v2 .experience .exp-content p {
+#home .project .exp-content p {
     margin-bottom: 0;
 }
 
-#home-v2 .experience .exp-content hr {
+#home .project .exp-content hr {
     border-bottom: 2px solid white;
 }
 
-#home-v2 .experience .exp-content span {
+#home .project .exp-content span {
     text-align: left;
 }
 
-#home-v2 .experience .col-2 {
+#home .project .col-2 {
     text-align: center;
 }
 
-#home-v2 .experience .col-2 p {
+#home .project .col-2 p {
     position: absolute;
 }
 
-#home-v2 .experience .col-2 i {
+#home .project .col-2 i {
     font-size: 25px;
     color: white;
     margin: 0 auto;
     padding-bottom: 10px;
 }
 
-#home-v2 .experience .start-date {
+#home .project .start-date {
     left: 0;
 }
 
-#home-v2 .experience .end-date {
+#home .project .end-date {
     top: 0;
     right: 0;
 }
 
-#home-v2 .experience .exp-item-right {
+#home .project .exp-item-right {
     text-align: end;
 }
 
-#home-v2 .experience .vertical-line {
+#home .project .vertical-line {
     margin: 0 auto;
     width: 2px;
     height: 81%;
     background-color: white;
 }
 
-/* ========================================EDUCATION======================================== */
+/* ========================================EXPERIENCE======================================== */
 
-#home-v2 .education {
+#home .experience {
     padding: 50px 0;
     background-color: #141414;
 }
 
-#home-v2 .education .education-item {
+#home .experience .experience-item {
     text-align: center;
     font-size: 17px;
     background-color: #222222;
@@ -381,56 +382,56 @@ html, body {
     transition: transform 500ms ease-in-out;
 }
 
-#home-v2 .education .education-item.appear {
+#home .experience .experience-item.appear {
     transform: rotateX(0deg);
 }
 
-#home-v2 .education .education-item:hover {
+#home .experience .experience-item:hover {
     transition: transform 500ms ease-in-out;
     transform: scale(1.1, 1.1);
 }
 
-#home-v2 .education .education-item ul {
+#home .experience .experience-item ul {
     text-align: left;
     padding: 0 20px;
 }
 
-#home-v2 .education .education-item li {
+#home .experience .experience-item li {
     display: block;
 }
 
-#home-v2 .education .education-item h2 {
+#home .experience .experience-item h2 {
     color: #943d2b;
 }
 
-#home-v2 .education .education-item hr {
+#home .experience .experience-item hr {
     border-bottom: 2px solid #943d2b;
     width: 100%;
 }
 
 /* ========================================CONTACT======================================== */
 
-#home-v2 .contact {
+#home .contact {
     padding: 100px 0;
 }
 
-#home-v2 .contact .contact-content {
+#home .contact .contact-content {
     display: flex;
     justify-content: right;
     align-items: center;
 }
 
-#home-v2 .contact .form-group {
+#home .contact .form-group {
     position: relative;
     transform: translateX(-150px);
     transition: transform 1000ms ease-in-out;
 }
 
-#home-v2 .contact .form-group.appear {
+#home .contact .form-group.appear {
     transform: translateX(0);
 }
 
-#home-v2 .contact .form-group input {
+#home .contact .form-group input {
     background: none;
     border: 2px solid #943d2b;
     border-bottom-left-radius: 28px;
@@ -442,7 +443,7 @@ html, body {
     margin-bottom: 20px;
 }
 
-#home-v2 .contact .form-group input:focus {
+#home .contact .form-group input:focus {
     background: none;
     border: 2px solid darkred;
     color: white;
@@ -456,28 +457,28 @@ html, body {
     font-size: 27px;
 }
 
-#home-v2 .contact .input-1 {
+#home .contact .input-1 {
     margin-left: -167px;
 }
 
-#home-v2 .contact .input-2 {
+#home .contact .input-2 {
     margin-left: -97px;
 }
 
-#home-v2 .contact .input-3 {
+#home .contact .input-3 {
     margin-left: -27px;
 }
 
-#home-v2 .contact .input-4 {
+#home .contact .input-4 {
     margin-left: 57px;
 }
 
-#home-v2 .contact .contact-form button {
+#home .contact .contact-form button {
     padding: 2px 15px;
     font-size: 22px;
 }
 
-#home-v2 .contact .btn-sending {
+#home .contact .btn-sending {
     background: #943d2b;
     border-bottom-left-radius: 28px;
     padding: 0 25px;
