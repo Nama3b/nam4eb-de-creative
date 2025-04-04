@@ -591,36 +591,36 @@
 
 @media (max-width: 1024px) {
     /*introduce*/
-    #home-v2 .introduce .img-section {
+    #home .introduce .img-section {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    #home-v2 .introduce .img-section img {
+    #home .introduce .img-section img {
         width: 80%;
         height: 80%;
     }
 
-    #home-v2 .contact-info .col-md-5 {
+    #home .contact-info .col-md-5 {
         max-width: 150%;
     }
 
-    #home-v2 .contact-info .col-md-7 {
+    #home .contact-info .col-md-7 {
         max-width: 120%;
     }
 
-    #home-v2 .contact-item p {
+    #home .contact-item p {
         font-size: 14px;
     }
 
     /*experience*/
-    #home-v2 .experience .col-2 p {
+    #home .experience .col-2 p {
         font-size: 14px;
     }
 
     /*education*/
-    #home-v2 .education .education-item ul {
+    #home .education .education-item ul {
         font-size: 14px;
     }
 }
@@ -637,36 +637,36 @@
     }
 
     /*introduce*/
-    #home-v2 .introduce .img-section img {
+    #home .introduce .img-section img {
         width: 65%;
         height: 65%;
     }
 
-    #home-v2 .introduce .display-1 i {
+    #home .introduce .display-1 i {
         font-size: 20px;
     }
 
-    #home-v2 .introduce .display-1 p {
+    #home .introduce .display-1 p {
         font-size: 20%;
         text-align: center;
     }
 
     /*about*/
-    #home-v2 .about-item li {
+    #home .about-item li {
         font-size: 12px;
     }
 
-    #home-v2 .about .about-item p {
+    #home .about .about-item p {
         font-size: 14px;
     }
 
     /*experience*/
-    #home-v2 .experience .start-date {
+    #home .experience .start-date {
         top: 0;
         left: -7px;
     }
 
-    #home-v2 .experience .end-date {
+    #home .experience .end-date {
         top: 0;
         right: -7px;
     }
@@ -676,7 +676,7 @@
         font-size: 20px;
     }
 
-    #home-v2 .education .education-item li {
+    #home .education .education-item li {
         font-size: 12px;
     }
 
@@ -698,122 +698,122 @@
     }
 
     /*introduce*/
-    #home-v2 .introduce .img-section img {
+    #home .introduce .img-section img {
         width: 50%;
         height: 50%;
     }
 
-    #home-v2 .introduce .display-1 i {
+    #home .introduce .display-1 i {
         font-size: 15px;
     }
 
     /*about*/
-    #home-v2 .about .about-content {
+    #home .about .about-content {
         display: block;
     }
 
-    #home-v2 .about .about-item h4 {
+    #home .about .about-item h4 {
         font-size: 16px;
     }
 
-    #home-v2 .about .contact-info li,
-    #home-v2 .about .about-item p {
+    #home .about .contact-info li,
+    #home .about .about-item p {
         font-size: 13px;
     }
 
     /*experience*/
-    #home-v2 .experience .exp-item-left-empty {
+    #home .experience .exp-item-left-empty {
         display: none;
     }
 
-    #home-v2 .experience .exp-item-left h4,
-    #home-v2 .experience .exp-item-right h4 {
+    #home .experience .exp-item-left h4,
+    #home .experience .exp-item-right h4 {
         font-size: 18px;
     }
 
-    #home-v2 .experience .exp-item-left p,
-    #home-v2 .experience .exp-item-right p {
+    #home .experience .exp-item-left p,
+    #home .experience .exp-item-right p {
         font-size: 14px;
     }
 
-    #home-v2 .experience .exp-content .d-flex {
+    #home .experience .exp-content .d-flex {
         margin: 30px 0;
     }
 
-    #home-v2 .experience .col-2 i {
+    #home .experience .col-2 i {
         display: none;
     }
 
-    #home-v2 .experience .col-2 p.start-date {
+    #home .experience .col-2 p.start-date {
         font-size: 13px;
         top: 0;
         right: 0;
     }
 
-    #home-v2 .experience .col-2 p.end-date {
+    #home .experience .col-2 p.end-date {
         font-size: 13px;
         top: 17px;
         right: 0;
     }
 
-    #home-v2 .experience .vertical-line {
+    #home .experience .vertical-line {
         height: 80%;
         margin-top: 40px;
     }
 
     /*education*/
-    #home-v2 .education .education-item h2 {
+    #home .education .education-item h2 {
         font-size: 16px;
     }
 
-    #home-v2 .education .education-item p {
+    #home .education .education-item p {
         font-size: 14px;
     }
 
-    #home-v2 .education .education-item ul {
+    #home .education .education-item ul {
         padding: 0;
     }
 
-    #home-v2 .education .education-item li {
+    #home .education .education-item li {
         font-size: 12px;
     }
 
     /*contact*/
-    #home-v2 .contact .form-group input {
+    #home .contact .form-group input {
         height: 35px;
         font-size: 12px;
         padding-left: 40px;
     }
 
-    #home-v2 .contact #input_img {
+    #home .contact #input_img {
         bottom: 14px;
         left: 15px;
         font-size: 18px;
     }
 
-    #home-v2 .contact .input-1 {
+    #home .contact .input-1 {
         margin-left: -13px;
     }
 
-    #home-v2 .contact .input-2 {
+    #home .contact .input-2 {
         margin-left: 13px;
     }
 
-    #home-v2 .contact .input-3 {
+    #home .contact .input-3 {
         margin-left: 43px;
     }
 
-    #home-v2 .contact .input-4 {
+    #home .contact .input-4 {
         margin-left: 83px;
     }
 
-    #home-v2 .contact .btn-sending {
+    #home .contact .btn-sending {
         height: 35px;
         font-size: 15px;
         margin-right: 5px;
     }
 
-    #home-v2 .contact .form-group {
+    #home .contact .form-group {
         margin-bottom: 10px;
     }
 

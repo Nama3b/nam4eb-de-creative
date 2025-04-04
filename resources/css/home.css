@@ -264,11 +264,6 @@ html, body {
     display: flex;
 }
 
-#home .about .contact-info ul {
-    margin-bottom: 0;
-    padding: 0;
-}
-
 #home .about .contact-info ul li {
     display: block;
     padding: 3px 0 3px 0;
@@ -277,6 +272,10 @@ html, body {
 #home .about .more-contact-info {
     text-align: end;
     margin: 20px 0;
+}
+
+#home .about .contact-info ul {
+    margin-bottom: 0;
 }
 
 #home .about .more-contact-info a {
@@ -306,71 +305,67 @@ html, body {
     margin-bottom: 0;
 }
 
-/* ==============================project============================== */
+/* ==============================EXPERIENCE============================== */
 
-#home .project {
+#home .experience {
     padding: 100px 0;
 }
 
-#home .project .exp-content {
+#home .experience .exp-content {
     color: white;
 }
 
-#home .project .exp-content p {
+#home .experience .exp-content p {
     margin-bottom: 0;
 }
 
-#home .project .exp-content hr {
+#home .experience .exp-content hr {
     border-bottom: 2px solid white;
 }
 
-#home .project .exp-content span {
+#home .experience .exp-content span {
     text-align: left;
 }
 
-#home .project .col-2 {
+#home .experience .col-2 {
     text-align: center;
 }
 
-#home .project .col-2 p {
+#home .experience .col-2 p {
     position: absolute;
 }
 
-#home .project .col-2 i {
+#home .experience .col-2 i {
     font-size: 25px;
     color: white;
     margin: 0 auto;
     padding-bottom: 10px;
 }
 
-#home .project .start-date {
-    left: 0;
-}
-
-#home .project .end-date {
+#home .experience .end-date {
     top: 0;
-    right: 0;
+    right: 15px;
 }
 
-#home .project .exp-item-right {
+#home .experience .exp-item-right {
     text-align: end;
 }
 
-#home .project .vertical-line {
+#home .experience .vertical-line {
     margin: 0 auto;
     width: 2px;
     height: 81%;
     background-color: white;
 }
 
-/* ========================================EXPERIENCE======================================== */
+/* ========================================EDUCATION======================================== */
 
-#home .experience {
+#home .education {
     padding: 50px 0;
     background-color: #141414;
 }
 
-#home .experience .experience-item {
+#home .education .education-item {
     text-align: center;
     font-size: 17px;
     background-color: #222222;
@@ -382,29 +377,29 @@ html, body {
     transition: transform 500ms ease-in-out;
 }
 
-#home .experience .experience-item.appear {
+#home .education .education-item.appear {
     transform: rotateX(0deg);
 }
 
-#home .experience .experience-item:hover {
+#home .education .education-item:hover {
     transition: transform 500ms ease-in-out;
     transform: scale(1.1, 1.1);
 }
 
-#home .experience .experience-item ul {
+#home .education .education-item ul {
     text-align: left;
     padding: 0 20px;
 }
 
-#home .experience .experience-item li {
+#home .education .education-item li {
     display: block;
 }
 
-#home .experience .experience-item h2 {
+#home .education .education-item h2 {
     color: #943d2b;
 }
 
-#home .experience .experience-item hr {
+#home .education .education-item hr {
     border-bottom: 2px solid #943d2b;
     width: 100%;
 }
@@ -482,7 +477,6 @@ html, body {
     background: #943d2b;
     border-bottom-left-radius: 28px;
     padding: 0 25px;
-    margin-right: 9px;
     height: 50px;
     font-size: 20px;
     color: black;
